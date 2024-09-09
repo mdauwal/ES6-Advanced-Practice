@@ -19,7 +19,7 @@ const Test = () => {
 
   return (
     <div className="container">
-        {message && <p>{message}</p> }
+    {message && <p>{message}</p> }
     <h1>{count}</h1>
     <button onClick={() => setCount(count + 1)}>+</button>
     <button onClick={() => setCount(count - 1)}>-</button>
